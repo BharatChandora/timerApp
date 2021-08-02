@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+
+    <section>
+        <div class="timebox container">
+            <h1>Timer</h1>
+            <div class="input-box">
+
+                <form action="">
+                    <label for="min" class='left'>min</label>
+                    <input type="text" id="min" class="min inbox" value="10" maxlength="2">
+                    <label for="sec" class='right'>sec</label>
+                    <input type="text" id="sec" class="sec inbox" value="59" maxlength="2">
+                </form>
+
+            </div>
+
+            <div class="ui">
+                <!-- <button id="add" class="cbtn l">+</button> -->
+                <div class="clock">
+                    <span id="min-tens" class="num">0</span>
+                    <span id="min-unit" class='num'>0</span>
+                    <span>m</span>
+                    <span id="sec-tens" class='num'>1</span>
+                    <span id="sec-unit" class='num'>0</span>
+                    <span>s</span>
+                </div>
+                <!-- <button id="sub" class="cbtn r">-</button> -->
+            </div>
+
+
+            <button id="play" class="cbtn">play</button>
+
+            <button class="btn" id='startBtn'>Start</button>
+        </div>
+
+
+    </section>
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
